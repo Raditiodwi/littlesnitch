@@ -1,0 +1,40 @@
+{
+  "description" : "",
+  "name" : "iyunoidn_mixing2",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1585276115.1077309,
+      "direction" : "incoming",
+      "modificationDate" : 1585276115.1077309,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1585276075.643712,
+      "modificationDate" : 1585276075.643712,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1585276210.779115,
+      "direction" : "incoming",
+      "modificationDate" : 1585276210.779115,
+      "owner" : "me",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1585276189.2791181,
+      "modificationDate" : 1585276189.2791181,
+      "owner" : "me",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "remote" : "any"
+    }
+  ]
+}
