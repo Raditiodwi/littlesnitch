@@ -1,37 +1,71 @@
 {
   "description" : "",
-  "name" : "iyunoidn_mixing1",
+  "name" : "iyunoidn",
   "rules" : [
     {
       "action" : "deny",
-      "creationDate" : 1585276115.1077309,
+      "creationDate" : 1585612103.42851,
       "direction" : "incoming",
-      "modificationDate" : 1585276115.1077309,
+      "modificationDate" : 1585612103.42851,
+      "owner" : "me",
+      "process" : "\/Applications\/App Store.app\/Contents\/MacOS\/App Store",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1585612085.3075938,
+      "modificationDate" : 1585612085.3075938,
+      "owner" : "me",
+      "process" : "\/Applications\/App Store.app\/Contents\/MacOS\/App Store",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1585614765.90183,
+      "direction" : "incoming",
+      "modificationDate" : 1585614765.90183,
+      "owner" : "me",
+      "process" : "\/Applications\/FileZilla.app\/Contents\/MacOS\/filezilla",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1585614748.3243089,
+      "modificationDate" : 1585614748.3243089,
+      "owner" : "me",
+      "process" : "\/Applications\/FileZilla.app\/Contents\/MacOS\/filezilla",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1585612042.3641901,
+      "direction" : "incoming",
+      "modificationDate" : 1585612042.3641901,
       "owner" : "me",
       "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1585276075.643712,
-      "modificationDate" : 1585276075.643712,
+      "creationDate" : 1585612026.7112679,
+      "modificationDate" : 1585612026.7112679,
       "owner" : "me",
       "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1585276210.779115,
+      "creationDate" : 1585612073.5716062,
       "direction" : "incoming",
-      "modificationDate" : 1585276210.779115,
+      "modificationDate" : 1585612073.5716062,
       "owner" : "me",
       "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1585276189.2791181,
-      "modificationDate" : 1585276189.2791181,
+      "creationDate" : 1585612049.9905241,
+      "modificationDate" : 1585612049.9905241,
       "owner" : "me",
       "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
       "remote" : "any"
