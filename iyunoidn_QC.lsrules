@@ -3,18 +3,53 @@
   "name" : "iyunoidn_tio",
   "rules" : [
     {
-      "action" : "deny",
-      "creationDate" : 1585276115.1077309,
+      "action" : "allow",
+      "creationDate" : 1585725616.112113,
       "direction" : "incoming",
-      "modificationDate" : 1585276115.1077309,
+      "modificationDate" : 1585725616.112113,
       "owner" : "me",
       "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
       "remote" : "any"
     },
     {
+      "action" : "allow",
+      "creationDate" : 1585726085.6781101,
+      "modificationDate" : 1585726085.6781101,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "googleapis.com",
+      "via" : "\/Applications\/Google Chrome.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/80.0.3987.162\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1585726092.155067,
+      "modificationDate" : 1585726092.155067,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "googleusercontent.com",
+      "via" : "\/Applications\/Google Chrome.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/80.0.3987.162\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1585726088.8049932,
+      "modificationDate" : 1585726088.8049932,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "gstatic.com",
+      "via" : "\/Applications\/Google Chrome.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/80.0.3987.162\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1585725543.036247,
+      "modificationDate" : 1585725543.036247,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "google.com"
+    },
+    {
       "action" : "deny",
-      "creationDate" : 1585276075.643712,
-      "modificationDate" : 1585276075.643712,
+      "creationDate" : 1585725667.954566,
+      "modificationDate" : 1585725667.954566,
       "owner" : "me",
       "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
       "remote" : "any"
