@@ -1,0 +1,57 @@
+{
+  "description" : "",
+  "name" : "Dubbing Team Rules",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1607976815.626338,
+      "direction" : "incoming",
+      "modificationDate" : 1607976815.626338,
+      "owner" : "me",
+      "process" : "\/Applications\/FortiClient.app\/Contents\/MacOS\/FortiClient",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1607976778.163058,
+      "modificationDate" : 1607976778.163058,
+      "owner" : "me",
+      "process" : "\/Applications\/FortiClient.app\/Contents\/MacOS\/FortiClient",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1607976908.792248,
+      "direction" : "incoming",
+      "modificationDate" : 1607976908.792248,
+      "owner" : "me",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1607976837.791616,
+      "modificationDate" : 1607976837.791616,
+      "owner" : "me",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1607976939.9675291,
+      "direction" : "incoming",
+      "modificationDate" : 1607976939.9675291,
+      "owner" : "me",
+      "process" : "\/Applications\/VNC Viewer.app\/Contents\/MacOS\/vncviewer",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1607976919.177669,
+      "modificationDate" : 1607976919.177669,
+      "owner" : "me",
+      "process" : "\/Applications\/VNC Viewer.app\/Contents\/MacOS\/vncviewer",
+      "remote" : "any"
+    }
+  ]
+}
