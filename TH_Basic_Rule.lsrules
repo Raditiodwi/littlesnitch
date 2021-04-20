@@ -1,0 +1,74 @@
+{
+  "description" : "",
+  "name" : "TH_Basic_Rule",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1618889043.4869289,
+      "direction" : "incoming",
+      "modificationDate" : 1618889043.4869289,
+      "owner" : "me",
+      "process" : "\/Applications\/FortiClient.app\/Contents\/MacOS\/FortiClient",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1618889017.5578609,
+      "modificationDate" : 1618889017.5578609,
+      "owner" : "me",
+      "process" : "\/Applications\/FortiClient.app\/Contents\/MacOS\/FortiClient",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1618889006.7535682,
+      "direction" : "incoming",
+      "modificationDate" : 1618889006.7535682,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1618888952.1817751,
+      "modificationDate" : 1618888952.1817751,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1618888937.766562,
+      "direction" : "incoming",
+      "modificationDate" : 1618888937.766562,
+      "owner" : "me",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1618888887.5452919,
+      "modificationDate" : 1618888887.5452919,
+      "owner" : "me",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1618888875.175452,
+      "direction" : "incoming",
+      "modificationDate" : 1618888875.175452,
+      "owner" : "me",
+      "process" : "\/Applications\/TeamViewer.app\/Contents\/MacOS\/TeamViewer",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1618888818.6790409,
+      "modificationDate" : 1618888818.6790409,
+      "owner" : "me",
+      "process" : "\/Applications\/TeamViewer.app\/Contents\/MacOS\/TeamViewer",
+      "remote" : "any"
+    }
+  ]
+}
